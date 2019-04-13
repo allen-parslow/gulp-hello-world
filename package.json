@@ -1,0 +1,49 @@
+{
+  "name": "gulp-hello-world",
+  "version": "1.0.0",
+  "description": "hello-world with basic gulp-babel",
+  "author": "Allen Parslow",
+  "license": "ISC",
+  "repository": "https://github.com/allen-parslow/gulp-hello-world.git",
+  "scripts": {
+    "clean": "rm -rf dist/ node_modules/",
+    "i": "yarn install",
+    "start": "gulp",
+    "lint": "gulp lint && gulp validate-html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.0",
+    "@babel/register": "^7.4.0",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.3",
+    "browserify": "^16.2.3",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.1",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-lodash": "^5.1.0",
+    "eslint-plugin-react": "^7.11.0",
+    "express": "^4.16.4",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^5.0.0",
+    "gulp-exit": "^0.0.2",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-w3c-html-validator": "^1.4.3",
+    "node-sass": "^4.11.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1"
+  }
+}
