@@ -1,38 +1,44 @@
 {
-  "env":{
-    "browser":true,
-    "es6":true
+  "env": {
+    "browser": true,
+    "es6": true
   },
-  "extends": ["airbnb", "plugin:lodash/recommended"],
-  "globals":{
-    "Atomics":"readonly",
-    "SharedArrayBuffer":"readonly"
+  "extends": [
+    "airbnb",
+    "plugin:lodash/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
   },
-  "parserOptions":{
-    "ecmaFeatures":{
-      "jsx":true
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
     },
-    "ecmaVersion":2018,
-    "sourceType":"module"
+    "ecmaVersion": 2018,
+    "sourceType": "module"
   },
-  "plugins": ["lodash"],
-  "rules":{
-    "indent":[
+  "plugins": [
+    "lodash"
+  ],
+  "rules": {
+    "indent": [
       "error",
       4
     ],
-    "no-console":"off",
-    "quotes":[
+    "no-console": "off",
+    "quotes": [
       "error",
       "single"
     ],
-    "comma-dangle":[
+    "comma-dangle": [
       "error",
       "never"
     ],
-    "arrow-body-style":[
+    "arrow-body-style": [
       "error",
       "always"
-    ]
+    ],
+    "lodash/import-scope": "off"
   }
 }

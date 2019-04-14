@@ -1,0 +1,8 @@
+$warning-color: #fff;
+$warning-background-color: #f00;
+
+body {
+  background-color: $warning-background-color;
+  color: $warning-color;
+  font-weight: bold;
+}
